@@ -1,4 +1,4 @@
-import { createServerClient } from "@supabase/supabase-js";
+import { createClient } from "@supabase/supabase-js";
 
 /**
  * Server-side Supabase client.
@@ -20,7 +20,7 @@ export function getSupabaseServerClient() {
     );
   }
 
-  return createServerClient(url, serviceRoleKey, {
+  return createClient(url, serviceRoleKey, {
     auth: { persistSession: false },
   });
 }
