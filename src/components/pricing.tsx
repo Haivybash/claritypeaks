@@ -33,7 +33,7 @@ const starterByIndustry: Record<string, Deliverables> = {
   salons: { reels: 8, posts: 6, stories: 12 },
   jewelry: { reels: 8, posts: 4, stories: 8 },
   gyms: { reels: 7, posts: 4, stories: 7 },
-  "real-estate"/: { reels: 8, posts: 4, stories: 12 },
+  "real-estate": { reels: 8, posts: 4, stories: 12 },
   restaurants: { reels: 5, posts: 3, stories: 6 },
   "interior-designers": { reels: 12, posts: 6, stories: 12 },
 };
