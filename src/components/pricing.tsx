@@ -33,7 +33,7 @@ const starterByIndustry: Record<string, Deliverables> = {
   salons: { reels: 8, posts: 6, stories: 12 },
   jewelry: { reels: 8, posts: 4, stories: 8 },
   gyms: { reels: 7, posts: 4, stories: 7 },
-  "real-estate": { reels: 8, posts: 4, stories: 12 },
+  "real-estate"/: { reels: 8, posts: 4, stories: 12 },
   restaurants: { reels: 5, posts: 3, stories: 6 },
   "interior-designers": { reels: 12, posts: 6, stories: 12 },
 };
@@ -50,14 +50,14 @@ const growthByIndustry: Record<string, Deliverables> = {
 
 const starterFeatures = [
   "Smartphone-first shoots — agile, authentic, trend-ready",
-  "Social-first editing: clean text, trend-aware pacing, platform-native audio",
+  "Social-first editing: clean cuts, trend-aware pacing, platform-native audio",
   "Consistent, confident feed that keeps your brand visible",
 ];
-
 const growthFeatures = [
-  "Professional camera-led production",
-  "Cinematic sequencing: colour grading, sound design, motion graphics",
+  "Smartphone-shot, studio-level direction — multi-angle takes, deliberate framing, and lighting setups",
+  "Elevated post-production: colour grading, layered sound design, and motion-graphic accents",
   "Deeper post-production effort for a more distinctive result",
+];
 ];
 
 export function Pricing() {
