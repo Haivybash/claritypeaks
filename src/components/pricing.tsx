@@ -107,7 +107,7 @@ export function Pricing() {
           {/* Growth — visually distinct */}
           <PlanCard
             name="Growth"
-            price="₹22,000"
+            price="₹25,000"
             cadence="/ month"
             tagline="A more substantial and more distinctive content presence."
             features={growthFeatures}
