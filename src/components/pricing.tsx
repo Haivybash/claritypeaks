@@ -58,7 +58,6 @@ const growthFeatures = [
   "Elevated post-production: colour grading, layered sound design, and motion-graphic accents",
   "Deeper post-production effort for a more distinctive result",
 ];
-];
 
 export function Pricing() {
   const { industryId } = useIndustry();
