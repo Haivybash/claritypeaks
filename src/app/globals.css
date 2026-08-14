@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/*
+  Clarity Peaks Social — "Organic Modern" brand tokens.
+  Tailwind v4 CSS-first config: these tokens generate utilities like
+  bg-cream, text-forest, border-sage, text-terracotta, font-serif, font-sans.
+*/
+@theme {
+  /* Brand colors */
+  --color-cream: #f5f2eb; /* Warm cream background */
+  --color-forest: #2c362b; /* Deep forest green — primary text & structure */
+  --color-sage: #9eab98; /* Soft sage — supporting UI */
+  --color-terracotta: #c47450; /* Terracotta — high-priority CTAs only */
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-forest);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
