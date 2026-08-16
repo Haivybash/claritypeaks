@@ -251,7 +251,7 @@ export function LeadForm() {
                   disabled={isSubmitting}
                   className="w-full rounded-2xl bg-forest px-7 py-3.5 text-sm font-medium text-cream shadow-sm transition-colors hover:bg-terracotta focus:outline-none focus-visible:ring-2 focus-visible:ring-forest focus-visible:ring-offset-2 focus-visible:ring-offset-cream disabled:opacity-60 sm:w-auto"
                 >
-                  {isSubmitting ? "Sending&hellip;" : "Submit"}
+                  {isSubmitting ? "Sending;" : "Submit"}
                 </button>
                 {submitError && (
                   <p className="text-sm text-terracotta">{submitError}</p>
