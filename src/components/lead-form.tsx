@@ -300,11 +300,11 @@ function SuccessCard({
       </p>
       <div className="mt-8 flex flex-col items-center gap-3">
         <a
-          href="#get-started"
+          href="tel:+9162800062417"
           className="rounded-2xl bg-forest px-7 py-3.5 text-sm font-medium text-cream transition-colors hover:bg-terracotta focus:outline-none focus-visible:ring-2 focus-visible:ring-forest focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
         >
-          Book a Call
-        </a>
+  Call us Now!
+</a>
         <button
           type="button"
           onClick={onReset}
